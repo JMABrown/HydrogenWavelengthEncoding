@@ -8,3 +8,15 @@ The use of this 10% value seems odd, especially since the plaque already establi
 So what would these planetary distances ACTUALLY look like, using the hyperfine transition of Hydrogen as the base unit, of 21.106cm?
 I wrote a Java program to convert distances into binary with this base unit.
 
+The results were as follows:
+```
+MERCURY 0000000111100101011000100000101001001111001110
+VENUS   0000001110110111100111011000100100111010001110
+EARTH   0000010100011100001111010100111010011101010100
+MARS    0000011110111111111110110001011101101101101010
+JUPITER 0001101011000010111101011100000111101011110110
+SATURN  0011000100101001100010100000010110111011000100
+NEPTUNE 1001101000011100110011110110111111011101110110
+```
+Is this binary too verbose for the golden plaques? I suspect it could have fit, if the planets were presented vertically instead of horizontally.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69fcf9a2-ffbf-4720-912b-a914e7d7d1f1" />
