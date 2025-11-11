@@ -1,9 +1,9 @@
 ## The Context
-The Pioneer Plaques are golden plaques placed upon the Pioneer 10 and Pioneer 11 probes, which were some of the first objects sent to interstellar space. Inscribed on the plaques was a series of primitive message to any potential extra-terrestrial life that might encounter the plaques. One of these messages described the distances of the planets around our sun, and the origin of the probe from the 3rd planet (Earth).
+The Pioneer Plaques are golden plaques placed upon the Pioneer 10 and Pioneer 11 probes, which were some of the first objects sent to interstellar space. Inscribed on the plaques was a series of primitive messages to any potential extra-terrestrial life that might encounter the probes. One of these messages described the distances of the planets around our sun, and the origin of the probe from the 3rd planet (Earth).
 <img width="1920" height="1080" alt="lmno fig 1" src="https://github.com/user-attachments/assets/eed0440d-a797-4452-89ec-957658065248" />
-The distances here are represented as binary, where "1" represents 10% of the average distance from the Sun to our first planet - Mercury. Therefore, Mercury is assigned 1010 (binary) or 10 (decimal) to show that it is 10x of the 10% distance. However, there is no way for an extra-terrestrial to determine the distance to Mercury, so they would not be able to decipher the 10% of any of the planetary distances.
+The distances here are represented as binary, where "1" represents 10% of the average distance from the Sun to our first planet - Mercury. Therefore, Mercury is assigned 1010 (binary) or 10 (decimal) to show that it is 10x of the 10% distance. However, there is no way for an extra-terrestrial to determine the distance to Mercury without already being aware of the planet, so they are unlikely to decipher the 10% unit required to determine the rest of the planetary distances.
 <img width="1920" height="1080" alt="lmno fig 2" src="https://github.com/user-attachments/assets/fca519f8-0db4-4eaa-83eb-d44d0695ebb7" />
-The use of this 10% value seems odd, especially since the plaque already established a unit - the hyperfine transition of Hydrogen. Hydrogen is one of the most abundant elements in the universe, and this wavelength would commonly be observed on absorption spectra. Thus, a unit of distance can be derived from Hydrogen, as roughly 21.106cm. This is as good as it gets for a universal yard stick in the universe.
+The use of this 10% value seems odd, especially since the plaque already established a unit - the hyperfine transition of Hydrogen. Hydrogen is one of the most abundant elements in the universe, and this wavelength would commonly be observed on absorption spectra, known as the "Hydrogen Line". Thus, a unit of distance can be derived from Hydrogen - roughly 21.106cm - corresponding to the wavelength of emitted light from the hyperfine transition of Hydrogren. This is as good as it gets for a universal yard stick in the universe.
 <img width="1920" height="1080" alt="lmno fig 3" src="https://github.com/user-attachments/assets/26649a4d-ea5c-47e8-a432-a5b0ce528aaa" />
 
 ## The Results
@@ -24,7 +24,10 @@ Is this binary too verbose for the golden plaques? I suspect it could have fit, 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69fcf9a2-ffbf-4720-912b-a914e7d7d1f1" />
 
+The program also accepts any distance you give it, alongside units such as mm, cm, km, converting any distance into a representation of binary using 21.06cm as the base unit.
+
 ## References
 Image references from Lemmino Video "Shouting at Stars: A History of Interstellar Messages" https://www.youtube.com/watch?v=uFI5WpK2sgg
 
 Pioneer Plaque Wikipedia https://en.wikipedia.org/wiki/Pioneer_plaque
+
